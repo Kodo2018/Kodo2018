@@ -1,0 +1,113 @@
+/*
+ admin css
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+/*CSS FOR MENU*/
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}
+.menu ul li a:hover{
+    color:black;
+}
+
+ .tbl-full{
+    width: 100%;
+ }
+
+ .tbl-30{
+    width: 30%;
+ }
+ table tr th{
+
+    border-bottom: 1px solid black;
+    padding: 1px;
+    text-align: left;
+ }
+ table tr td{
+    padding: 1px;
+    
+ }
+ .btn-primary{
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .btn-primary:hover{
+    background-color: antiquewhite;
+ }
+
+ .btn-secondary{
+    background-color:lightgreen;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .btn-secondary:hover{
+    background-color: grey;
+ }
+ .btn-danger{
+    background-color:red;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .btn-danger:hover{
+    background-color: lightsalmon;
+ }
+
+/*CSS FOR main*/
+
+.main{
+    margin:  0;
+    background-color:yellowgreen;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: whitesmoke;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*  css for footer*/
+ .footer{
+    background-color: brown;
+    color: white;
+ }
